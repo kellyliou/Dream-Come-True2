@@ -1,0 +1,162 @@
+h1 {
+  text-align: center;
+}
+
+#week {
+  position: relative;
+  left: 20px;
+}
+
+#aircon {
+  position: relative;
+  top: -234px;
+  left: 340px;
+  font-size: 20px;
+  padding: 15px;
+  background-color: rgba(173, 216, 230, 0.7);
+  max-width: 400px;
+}
+
+#trash {
+  position: relative;
+  font-size: 20px;
+  left: 20px;
+  padding: 15px;
+  background-color: rgba(173, 216, 230, 0.7);
+  max-width: 290px;
+}
+
+#ps,#pb,#pc,#pab,#roomtemp,#aircontemp,#aircontime,#year,#efstraw,#efcup,#efbag,#efaircon,#efairhour {
+  font-size: 20px;
+  max-width: 60px;
+}
+
+#cal {
+  position: relative;
+  left: 800px;
+  top: -520px;
+}
+
+#results {
+  position: relative;
+  font-size: 20px;
+  left: 800px;
+  top: -520px;
+  padding: 15px;
+  background-color: rgba(230, 230, 230, 0.7);
+  max-width: 400px;
+}
+
+#calresult {
+  position: relative;
+  font-size: 20px;
+  left: 30px;
+  top: -600px;
+  padding: 15px;
+  background-color: pink;
+  max-width: 400px;
+}
+
+#clearinput {
+  position: relative;
+  font-size: 20px;
+  left: 50px;
+  top: -600px;
+  padding: 15px;
+  background-color: lightgrey;
+  max-width: 400px;
+}
+
+#dosomething {
+  position: relative;
+  font-size: 20px;
+  left: 430px;
+  top: -660px;
+  padding: 15px;
+  background-color: lightgreen;
+  max-width: 400px;
+  display: none;
+}
+
+body {
+  background-image: url("../機器學習網站/環境破壞2.png");
+  background-size: cover;
+  background-position: right;
+}
+
+#try {
+  text-align: center;
+  position: relative;
+  top: -500px;
+  display: none;
+}
+
+#obj {
+  position: relative;
+  top: -498px;
+  left: 20px;
+  display: none;
+}
+
+#objectives {
+  position: relative;
+  font-size: 20px;
+  top: -500px;
+  left: 20px;
+  padding: 15px;
+  background-color: rgba(173, 216, 230, 0.7);
+  max-width: 300px;
+  display: none;
+}
+
+#eaircon {
+  position: relative;
+  font-size: 20px;
+  top: -682px;
+  left: 350px;
+  padding: 15px;
+  background-color: rgba(173, 216, 230, 0.7);
+  max-width: 400px;
+  height: 132px;
+  display: none;
+}
+
+#betterres{
+  position: relative;
+  top: -913px;
+  left: 810px;
+  display: none;
+}
+
+#betterresults{
+  position: relative;
+  font-size: 20px;
+  top: -916px;
+  left: 810px;
+  padding: 15px;
+  background-color: rgba(144, 238, 144, 0.7);
+  max-width: 400px;
+  display: none;
+}
+
+#calresult2 {
+  position: relative;
+  font-size: 20px;
+  left: 30px;
+  top: -1030px;
+  padding: 15px;
+  background-color: pink;
+  max-width: 400px;
+  display: none;
+}
+
+#clearinput2 {
+  position: relative;
+  font-size: 20px;
+  left: 210px;
+  top: -1090px;
+  padding: 15px;
+  background-color: lightgrey;
+  max-width: 400px;
+  display: none;
+}

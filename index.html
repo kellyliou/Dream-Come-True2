@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dreams Come True</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+  </head>
+  <body>
+    <h1>對地球造成的傷害</h1>
+    <h2 id = "week">一週平均使用:</h2>
+    <p id = "trash">
+      <input type = "number" id = "ps" min="0" required> 個塑膠吸管<br><br>
+      <input type = "number" id = "pb" min="0" required> 個塑膠袋<br><br>
+      <input type = "number" id = "pc" min="0" required> 個外帶紙杯<br><br>
+      <input type = "number" id = "pab" min="0" required> 個紙袋<br>
+    </p>
+    <p id = "aircon">
+      開冷氣時，冷氣上顯示 <input type = "number" id = "roomtemp" min="0" required> 度<br><br>
+      冷氣通常開 <input type = "number" id = "aircontemp" min="0" required> 度<br><br>
+      一週平均吹 <input type = "number" id = "aircontime" min="0" required> 小時的冷氣<br><br>
+      今年是西元 <input type = "number" id = "year" min="0" required> 年
+    </p>
+    <h2 id = "cal">根據計算結果:</h2>
+    <p id = "results">
+      如果世界上所有人都跟你有著一樣的習慣，<br>以下是你在一年內所造成的傷害:<br><br>
+      增加<span id = "co2emi"></span>kg的碳排放量<br><br>
+      增加<span id = "flood"></span>起全球性洪水災難<br><br>
+      增加<span id = "ew"></span>起極端氣候事件<br><br>
+      降低<span id = "plant"></span>%全世界植物存活率<br><br>
+    </p>
+    <input id = "calresult" type = "button" onclick = "mainfunc()" value = "點我計算結果">
+    <input id = "clearinput" type = "button" onclick = "clearNumberInputs()" value = "點我清除輸入內容">
+    <input type ="button" value = "你可以怎麼做!" id = "dosomething" onclick = "appear()">
+    <h1 id = "try">你可以試試!</h1>
+    <h2 id = "obj">請輸入改善目標: (每週計算)</h2>
+    <p id = "objectives">
+      使用 <input type = "number" id = "efstraw" min="0" required> 次環保吸管<br><br>
+      使用 <input type = "number" id = "efcup" min="0" required> 次環保杯<br><br>
+      使用 <input type = "number" id = "efbag" min="0" required> 次環保袋<br>
+    </p>
+    <p id = "eaircon">
+      冷氣改開 <input type = "number" id = "efaircon" min="0" required> 度<br><br>
+      每週冷氣改吹 <input type = "number" id = "efairhour" min="0" required> 小時<br>
+    </p>
+    <h2 id = "betterres">根據計算結果:</h2>
+    <p id = "betterresults">
+      如果世界上所有人都跟著你一起做出改變，<br>相較於上次的結果，你們將在一年內:<br><br>
+      減少<span id = "bco2emi"></span>kg的碳排放量<br><br>
+      防止<span id = "bflood"></span>起全球性洪水災難的發生<br><br>
+      減少<span id = "bew"></span>起極端氣候事件<br><br>
+      增加<span id = "bplant"></span>%全世界植物存活率
+    </p>
+    <input id = "calresult2" type = "button" onclick = "mainfunc2()" value = "點我計算結果">
+    <input id = "clearinput2" type = "button" onclick = "clearSpecificInputs()" value = "點我清除輸入內容">
+    <script src="first.js"></script>
+  </body>
+</html>
