@@ -79,7 +79,7 @@ h1 {
 }
 
 body {
-  background-image: URL("../環境破壞2.png");
+  background-image: url("環境破壞2.png");
   background-size: cover;
   background-position: right;
 }
