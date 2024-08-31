@@ -224,7 +224,7 @@ function appear() {
   document.getElementById("betterresults").style.display = 'block';
   document.getElementById("calresult2").style.display = 'block';
   document.getElementById("clearinput2").style.display = 'block';
-  document.body.style.backgroundImage = url("/美麗大自然2.png");
+  document.body.style.backgroundImage = 'url("美麗大自然2.png")';
   document.body.style.backgroundSize = "cover";
   document.body.style.backgroundPosition = "top";
   document.body.style.backgroundRepeat = "repeat";
