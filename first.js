@@ -138,6 +138,10 @@ function checkInputs2() {
 }
 
 function mainfunc2() {
+  if (!checkInputs()) {
+    alert("請確實填入上方所有資訊");
+    return;  // Stop execution if any input fields are not filled
+  }
   if (!checkInputs2()) {
     alert("請確實填入所有空格");
     return;  // Stop execution if any input fields are not filled
